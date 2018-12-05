@@ -8,10 +8,7 @@ public class MainClassTest extends MainClass {
     {
         int x = this.getLocalNumber();
         int y = 14;
-        if (x == y) {
-            System.out.println("getLocalNumber равен 14") ;
-        } else
-            Assert.fail("getLocalNumber равен : " + x + " а не 14");
+        if(x != y) Assert.fail("getLocalNumber равен : " + x + " а не 14");
     }
     @Test
     public void testClassNumber()

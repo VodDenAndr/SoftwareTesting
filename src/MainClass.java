@@ -10,7 +10,7 @@ public class MainClass {
     }
     public int getLocalNumber()
     {
-        return 14;
+        return 24;
     }
     public String getClassString()
     {
