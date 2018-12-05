@@ -6,11 +6,11 @@ public class MainClassTest extends MainClass {
 
     public void testGetLocalNumber ()
     {
-        int x = this.getLocalNumber();
-        int y = 14;
-        if (x == y) {
-          System.out.println("getLocalNumber равен 14") ;
+        int x = this.getClassNumber();
+        int y = 45;
+        if (x > y) {
+          System.out.println("getClassNumber больше 45") ;
         } else
-        Assert.fail("getLocalNumber равен : " + x + " а не 14");
+        Assert.fail("getClassNumber равен " + x + " а это меньше 45");
     }
 }
